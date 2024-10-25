@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;700&display=swap');
+
+*{
+   box-sizing:border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #000000;
+    background: #fff;
+}
+
+a:-webkit-any-link{
+    text-decoration: none;
+    color: #361921;
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.logo{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    background: lightgray;
+    color: #361921;
+    height: 60px;
+    text-decoration: none;
+}
+
+.navbar .a{
+    color: #361921;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.navbar .container{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+    text-decoration: none;
+}
+
+.navbar ul li{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 200px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.gd{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+p{
+    font-size: 24px;
+}
+
+span
+{
+    font-weight: bold;
+}
+
+.profile{
+    margin-right: 100px;
+    height: 500px;
+}
+
+.second{
+    background-color: #361921;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+.second-body{
+    width: 80%;
+}
+
+.header{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.icon{
+    height: 150px;
+}
+
+#head-text{
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+.img-text{
+    line-height: 30px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-style: inter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-img{
+    margin-right: 50px;
+}
+
+#third{
+    width: 100%;
+}
+
+.login-section{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 150px;
+}
+
+#form-text{
+    font-size: 30px;
+    margin-bottom: 10%;
+}
+
+input{
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    width: 70%;
+    font-size: x-large;
+    margin-bottom: 50px;
+    color: #000000;
+}
+
+button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-self: end;
+    margin-left: 56%;
+    border: none;
+    background-color: #361921;
+    color: #fff;
+    width: 110px;
+    height: 36px;
+    font-size: 24px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #361921;
+    color: #fff;
+    font-size: 15px;
+    height: 58px;
+}
